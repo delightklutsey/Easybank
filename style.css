@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+    height: 100vh;
+    /* font-family: "poppin", sans-serif; */
+    overflow-x: hidden;
+    width: 100%;
+    
+
+}
+
+.header .navbar{
+    justify-content: space-between;
+    display: flex;
+    padding: 25px;
+   height: 13vh;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+   
+}
+.header .navbar .logo{
+    margin-left: 80px;
+}
+
+.header .navbar button{
+    width: 150px;
+    height: 40px;
+    margin-right: 80px;
+    border-radius: 20px;
+    border-style: none;
+    color: white;
+    background-image: conic-gradient(  cyan, rgb(184, 184, 238) 50%, rgb(52, 184, 52)) ;
+   
+
+}
+
+.header .navbar button:hover{
+    cursor: pointer;
+    opacity: 60%;
+}
+.header .navbar .nav-list {   
+    display: flex;
+    gap: 30px;
+}
+
+.header .navbar .nav-list ul li{
+    list-style: none;
+    
+}
+
+.header .navbar .nav-list ul li a{
+    text-decoration: none;
+    color:   hsl(233, 8%, 62%);
+}
+.header .navbar .nav-list ul li :hover{
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #32CD32;
+   
+   text-underline-offset: 30px;
+   text-decoration-thickness: 0.2em;
+}
+#home .container{
+    background-color: hsl(0, 0%, 98%);
+    display: flex;
+    height: 100vh;
+}
+
+#home .container .left{
+    margin-top: 150px;
+    margin-left: 100px;
+   
+}
+
+#home .container .left p{
+    font-size: 1em;
+    margin-top: 10px;
+    color: hsl(233, 8%, 62%);
+}
+
+#home .container .left button{
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 80px;
+    border-radius: 20px;
+    border-style: none;
+    color: white;
+    background-image: conic-gradient(  cyan, rgb(184, 184, 238) 50%, rgb(52, 184, 52)) ;
+}
+
+#home .container .left button:hover{
+    cursor: pointer;
+    opacity: 60%;
+}
+
+#home .container .left h1{
+    font-size: 2rem;
+    color:  hsl(233, 26%, 24%);
+}
+#home .container .right{
+   background-image: url(./images/bg-intro-desktop.svg);
+   background-position: right;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-left: 300px;
+
+   
+  
+}
+
+#home .container .right img{
+    margin-left: 80px;
+    /* display: none; */
+}
+
+#about .aboutUs{
+    background-color: hsl(240, 20%, 95%);
+    padding: 100px;
+    
+   
+}
+
+#about .aboutUs h2{
+    font-size: 3em;
+    font-weight: 1;
+}
+
+#about .aboutUs p{
+    font-size: 1.1em;
+    margin-top: 30px;
+    color: hsl(233, 8%, 62%);
+    
+}
+#about .aboutUs .all{
+    display: flex;
+    margin-top: 80px;
+}
+
+#about .aboutUs .all .sub{
+   margin-right: 35px;
+}
+
+#about .aboutUs .all h3{
+    margin-top: 30px;
+}
+
+#blog {
+    /* margin-left: 100px; */
+    background-color: hsl(0, 0%, 98%);
+    /* background-color: blue; */
+    padding-left: 100px;
+}
+#blog  .set{
+    display: flex;
+    padding-top: 50px;
+}
+
+#blog  h2{
+   padding-top: 100px;
+   font-weight: 1;
+   font-size: 2.8em;
+   padding-left: 20px;
+}
+
+#blog  .set .band{
+    background-color: white;
+    width: 250px;
+    margin: 15px;
+}
+
+#blog  .set .band p{
+    color:  hsl(233, 8%, 62%);
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+#blog  .set .band h4{
+    margin-top: 5px;
+    font-weight: 1;
+    font-size: 1.5rem;
+}
+
+#blog  .set .band h4:hover{
+    color: green;
+    cursor: pointer;
+}
+
+#blog  .set .band p h4{
+   margin-left: 20px;
+     font-size: 0.1em;
+    
+}
+
+#blog  .set .band img{
+    width: 250px;
+    height: 200px;
+}
+#contact .footer{
+    background-color: hsl(233, 26%, 24%);
+    padding: 40px;
+    display: flex;
+   
+    
+}
+#contact .footer .icons{
+    padding-left: 70px;
+  
+}
+
+#contact .footer .icons .logo img{
+    opacity: 100%;
+    color: white;
+}
+#contact .footer .icons .icon{
+    margin-top: 60px;
+}
+#contact .footer .icons .icon a img:hover{
+    background-color: mediumseagreen;
+    cursor: pointer;
+   
+    
+}
+#contact .footer .lists{
+    margin-left: 150px;
+    display: flex;
+}
+#contact .footer .lists .list1 a{
+    display: block;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#contact .footer .lists .list1 a:hover{
+    color: mediumseagreen;
+}
+
+#contact .footer .lists .list2 a{
+    display: block;
+    margin: 10px;
+    margin-left: 100px;
+    color: white;
+    text-decoration: none;
+}
+
+#contact .footer .lists .list2 a:hover{
+    color: mediumseagreen;
+}
+#contact .footer .lists .list1 a{
+    display: block;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#contact .footer .lists .list1 a:hover{
+    color: mediumseagreen;
+}
+
+#contact .footer .last{
+    margin-left: 290px;
+}
+#contact .footer .last button{
+    width: 150px;
+    height: 40px;
+    margin-left: 90px;
+    border-radius: 20px;
+    border-style: none;
+    color: white;
+    background-image: conic-gradient(  cyan, rgb(184, 184, 238) 50%, rgb(52, 184, 52)) ;
+}
+
+#contact .footer .last button:hover{
+    cursor: pointer;
+    opacity: 60%;
+}
+
+#contact .footer .last p{
+    color:  hsl(233, 8%, 62%);
+    margin-top: 40px;
+}
